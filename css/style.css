@@ -1,0 +1,123 @@
+body{
+    background-color:hsl(30, 38%, 92%) ;
+    margin: 0px;
+    padding: 0px
+    
+}
+
+.img-code{
+   display: inline-block;
+   border-radius: 8px;
+   border-top-right-radius: 0px;
+   border-bottom-right-radius: 0px;
+   position: absolute;
+   left: 375px;
+   top: 120px;
+   margin:auto;
+}
+
+.contents{
+    background-color:hsl(0, 0%, 100%) ;
+    border-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    display: inline-block;
+    margin:auto;
+    width: 300px;
+    height: 420px;
+    position: absolute;
+    left: 670px;
+    top: 120px;
+    
+}
+
+h4 {
+    color:hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    margin:27px;
+    margin-bottom: 25px;
+    letter-spacing: 5px;
+    
+    
+}
+
+.main {
+    color:hsl(212, 21%, 14%) ;
+    font-family: 'Fraunces', serif;
+   margin-left: 25px;
+   margin-bottom: 25px;
+    width: 70%;
+    line-height: 1;
+    
+    
+}
+
+p{
+    color:hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    margin:25px; 
+    line-height: 1.5;
+    width: 80%;
+}
+
+.price{
+    color:hsl(158, 36%, 37%) ;
+    display: inline-block;
+    font-family: 'Fraunces', serif;
+    margin: -5px 25px;
+}
+
+.small-price{
+    color:hsl(228, 12%, 48%) ;
+    font-family:'Montserrat' , sans-serif;
+    font-size: 14px;
+    text-decoration: line-through;
+    padding-left: 15px;
+    
+    
+    
+}
+
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    border-style: none;
+    font-family: Arial;
+    color:  hsl(0, 0%, 100%);
+    font-size: 17px;
+    background: hsl(158, 36%, 37%);
+    padding: 12px 70px 12px 70px;
+    position: relative;
+    bottom: -25px;
+    left: 30px;
+    text-decoration: none;
+    
+  }
+  
+  .btn:hover {
+    background: hsl(158, 36%, 37%);
+    text-decoration: none;
+  }
+
+  .attribution{
+    color:hsl(228, 12%, 48%)  ;
+    font-family:'Montserrat' , sans-serif;
+    font-size: 18px;
+    text-align: center;
+    top: 560px;
+    position: relative;
+  }
+
+  a{
+    color:hsl(158, 36%, 37%) ;
+    font-family: 'Fraunces', serif;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+  a:hover{
+    text-decoration: underline;
+  }
